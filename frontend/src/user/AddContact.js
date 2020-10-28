@@ -154,8 +154,8 @@ const AddContact = () => {
     );
 
     const showSuccess = () => (
-        <div className="alert alert-success" style={{ display: createdContact ? '' : 'none' }}>
-            <h2> Message Send Successfully!</h2>
+        <div className="alert alert-success mt-3" style={{ display: createdContact ? '' : 'none' }}>
+            <h4 className="scl"> Message Send Successfully!</h4>
         </div>
     );
 

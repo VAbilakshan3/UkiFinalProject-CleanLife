@@ -156,8 +156,8 @@ const UpdateService = ({ match }) => {
     );
 
     const showSuccess = () => (
-        <div className="alert alert-success" style={{ display: createdService ? '' : 'none' }}>
-            <h2>{`${createdService}`} is updated!</h2>
+        <div className="alert alert-success mt-3" style={{ display: createdService ? '' : 'none' }}>
+            <h4 className="scl">{`${createdService}`} is updated!</h4>
         </div>
     );
 
@@ -171,7 +171,7 @@ const UpdateService = ({ match }) => {
     const redirectUser = () => {
         if (redirectToProfile) {
             if (!error) {
-                return <Redirect to="/" />;
+                return <Redirect to="/admin/services" />;
             }
         }
     };

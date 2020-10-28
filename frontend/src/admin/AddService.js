@@ -145,8 +145,8 @@ const AddService = () => {
     );
 
     const showSuccess = () => (
-        <div className="alert alert-success" style={{ display: createdService ? '' : 'none' }}>
-            <h2>{`${createdService}`} is created!</h2>
+        <div className="alert alert-success mt-3" style={{ display: createdService ? '' : 'none' }}>
+            <h4 className="scl">{`${createdService}`} is created!</h4>
         </div>
     );
 

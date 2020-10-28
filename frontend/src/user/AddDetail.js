@@ -148,14 +148,14 @@ const AddDetail = () => {
     );
 
     const showError = () => (
-        <div className="alert alert-danger" style={{ display: error ? '' : 'none' }}>
+        <div className="alert alert-danger mt-3" style={{ display: error ? '' : 'none' }}>
             {error}
         </div>
     );
 
     const showSuccess = () => (
-        <div className="alert alert-success" style={{ display: createdDetail ? '' : 'none' }}>
-            <h2>{`${createdDetail}`} data submitted!</h2>
+        <div className="alert alert-success mt-3" style={{ display: createdDetail ? '' : 'none' }}>
+            <h4 className="scl">Data submitted!</h4>
         </div>
     );
 
