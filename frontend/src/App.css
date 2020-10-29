@@ -36,11 +36,11 @@
 
 .box1{
   border:none !important;
-  /* box-shadow: 0 0 10px 0px #cabcbc; */
+  
   box-shadow: 0 0 3px 0px #948b8b !important;
 
   max-height: 480px;
-
+/* box-shadow: 0 0 10px 0px #cabcbc; */
 }
 
 .jcol2{
