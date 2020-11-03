@@ -25,6 +25,9 @@
   background-color: #59ab44;
 
 }
+.sc{
+  border-radius: 8px !important;
+}
 
 .imgg1{
   max-height: 150px;

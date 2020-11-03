@@ -92,7 +92,7 @@ const AddDetail = () => {
 
     const newPostForm = () => (
         <form className="" onSubmit={clickSubmit}>
-            <h2 className="text-center mb-3 mb- scl">Send Your Details</h2>
+            <h2 className="text-center mb-3 mb- scl">Send Waste Details</h2>
             <hr/>
             <h4 className="scl">Post Photo</h4>
             <div className="form-group">
@@ -113,7 +113,7 @@ const AddDetail = () => {
 
             <div className="form-group">
                 <label className="scl">Phone</label>
-                <input onChange={handleChange('phone')} type="text" className="form-control" value={phone} />
+                <input onChange={handleChange('phone')} type="number" className="form-control" value={phone} />
             </div>
 
             <div className="form-group">

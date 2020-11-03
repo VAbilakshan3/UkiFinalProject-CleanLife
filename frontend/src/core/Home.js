@@ -5,6 +5,7 @@ import Card from './Card';
 import Search from './Search';
 import Menu from './Menu'
 import '../App.css'
+import { Link } from 'react-router-dom';
 // import Footer from './Footer';
 
 
@@ -39,6 +40,11 @@ const Home = () => {
             <div className="jumbotron jj1 mt-4">
                 <h1 className="cll1 text-center mt-5">CleanLife</h1>
                 <h3 className="text-center ">A Stepping To Keep Environment Clean</h3>
+                {/* <div className="text-center  mt-4">
+                <Link to="/create/detail">
+                <button className="sc h5 " style={{background:"#59ab44", color:"white"}}>Submit</button>
+                </Link>
+                </div> */}
             </div>
             <div className="container col-md-12 col-sm-12 col-lg-9 ">
 

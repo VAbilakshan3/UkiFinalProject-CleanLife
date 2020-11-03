@@ -52,7 +52,7 @@ const clickSubmit = (event) => {
             </div>
             <div className="form-group">
                 <label className="scl">Email</label>
-                <input onChange={handleChange('email')} type="email" className="form-control" value={email} placeholder="Enter Your Email" required />
+                <input onChange={handleChange('email')} type="email" className="form-control" value={email} placeholder="Enter Your Email"  />
             </div>
             <div className="form-group">
                 <label className="scl">Password</label>

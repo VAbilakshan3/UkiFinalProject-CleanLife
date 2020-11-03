@@ -38,7 +38,7 @@ const userLinks = () => {
     <ul className="list-group letscl">
       <li className="list-group-item"><Link className="nav-link" to="/cart">My Cart</Link></li>
       <li className="list-group-item"><Link className="nav-link" to={`/profile/${_id}`}>Update Profile</Link></li>
-      <li className="list-group-item"><Link className="nav-link" to={`/create/detail`}>Send your details</Link></li>
+      <li className="list-group-item"><Link className="nav-link" to={`/create/detail`}>Send Waste details</Link></li>
       {/* <li className="list-group-item"><Link className="nav-link" to={`/create/contact`}>contact us</Link></li> */}
 
 
