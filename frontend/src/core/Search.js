@@ -67,7 +67,7 @@ console.log(data)
 
                 <div className="row">
                     {results.map((service, i) => (
-                        <div className="col-4 mb-3">
+                        <div className="col-lg-4 col-md-4 col-sm-12 mb-3">
                             <Card key={i} service={service} />
                         </div>
                     ))}
@@ -114,8 +114,10 @@ console.log(data)
     return (
         <div className="row">
             <div className="container mb-3">{searchForm()}</div>
-            <div className="container-fluid mb-3 scl">
+            <div className="container-fluid mb-3 scl ">
+                <div className="">
                 {searchedServices(results)}
+                </div>
             </div>
         </div>
     );

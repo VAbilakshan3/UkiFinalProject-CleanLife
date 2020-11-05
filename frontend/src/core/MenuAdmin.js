@@ -82,7 +82,7 @@ const MenuAdmin = ({ history }) => {
               style={isActive(history, "/signin")}
               to="/signin"
           >
-              Signin
+              Sign In
   
           </Link>
       </li>
@@ -97,7 +97,7 @@ const MenuAdmin = ({ history }) => {
                         style={isActive(history, "/signup")}
                         to="/signup"
                     >
-                        Signup
+                        Sign Up
            
                     </Link>
                 </li>
@@ -113,7 +113,7 @@ const MenuAdmin = ({ history }) => {
                         })
                     }
                 >
-                    Signout
+                    Sign Out
         
 
                 </span>

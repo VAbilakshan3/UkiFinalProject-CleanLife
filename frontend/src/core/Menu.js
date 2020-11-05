@@ -19,26 +19,30 @@ const isActive = (history, path) => {
 
 // scroll navbar
 const Menu = ({ history }) => {
-    const [navbar, setNavbar] = useState(false);
+    // const [navbar, setNavbar] = useState(false);
 
-    const changeBackground = () => {
-        if (window.scrollY >= 70 && window.size > 600) {
-            setNavbar(true);
-        } else {
-            setNavbar(false)
-        }
-    }
+    // const changeBackground = () => {
+    //     if (window.scrollY >= 70 && window.size > 600) {
+    //         setNavbar(true);
+    //     } else {
+    //         setNavbar(false)
+    //     }
+    // }
 
 
 
-    window.addEventListener('scroll', changeBackground)
+    // window.addEventListener('scroll', changeBackground)
     return (
 
 
         <ReactBootStrap.Navbar collapseOnSelect className="jcol1 fixed-top n" expand="sm" bg="dark" variant="dark">
             <ReactBootStrap.Navbar.Brand >
                 <Link className="nav-brand logo12 ml-3 mb-3" style={{ color: '#000' }} to="/">
-                    <img className="logo12" style={{ width: "160px" }} src="https://svgshare.com/i/QV9.svg" />
+                    <img className="logo12" style={{ width: "160px" }} 
+                    alt="CleanLife"
+                    src="https://svgshare.com/i/QV9.svg" 
+                    // src="./abilaksan.png"
+                    />
 
                 </Link>
             </ReactBootStrap.Navbar.Brand>
@@ -102,7 +106,7 @@ const Menu = ({ history }) => {
                                     style={isActive(history, "/signin")}
                                     to="/signin"
                                 >
-                                    Signin
+                                    Sign In
                                 </Link>
                             </li>
                            </Fragment>
@@ -118,7 +122,7 @@ const Menu = ({ history }) => {
                                     style={isActive(history, "/signup")}
                                     to="/signup"
                                 >
-                                    Signup
+                                    Sign Up
                                 </Link>
                             </li>
                            </Fragment>
@@ -134,7 +138,7 @@ const Menu = ({ history }) => {
                                         })
                                     }
                                 >
-                                    Signout
+                                    Sign ut
                                 </span>
                             </li>
                         )}
