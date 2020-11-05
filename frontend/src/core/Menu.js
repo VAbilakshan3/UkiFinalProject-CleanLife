@@ -138,7 +138,7 @@ const Menu = ({ history }) => {
                                         })
                                     }
                                 >
-                                    Sign ut
+                                    Sign Out
                                 </span>
                             </li>
                         )}
