@@ -22,6 +22,8 @@ import CreateDetails from './user/CreateDetails'
 import CheckedDetails from './core/CheckedDetails'
 import GetMessage from './user/GetMessage'
 import thanksForthePayment from './core/thanksForthePayment'
+import Help from './core/Help';
+
 
 
 
@@ -53,11 +55,12 @@ const Routes = () => {
             <AdminRoute path="/admin/service/update/:serviceId" exact component={UpdateService} />
             <AdminRoute path="/admin/category/update/:categoryId" exact component={UpdateCategory} />
             <PrivateRoute path="/create/detail" exact component={AddDetail} />
-            <PrivateRoute path="/create/contact" exact component={AddContact} />
+            <Route path="/create/contact" exact component={AddContact} />
             <AdminRoute path="/admin/details" exact component={CreateDetails} />
             <AdminRoute path="/admin/contacts" exact component={GetMessage} />
             <AdminRoute path="/admin/checkedDetails" exact component={CheckedDetails} />
             <PrivateRoute path="/thanksForthePayment" exact component={thanksForthePayment} />
+            <Route path="/help" exact component={Help} />
 
         </Switch>
     </BrowserRouter>
