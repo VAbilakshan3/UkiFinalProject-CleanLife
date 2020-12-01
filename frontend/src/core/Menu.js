@@ -4,7 +4,7 @@ import { signout, isAuthenticated } from "../auth";
 import { itemTotal } from './cartHelpers'
 import '../App.css';
 import * as ReactBootStrap from 'react-bootstrap'
-
+// import logo1 from '../a'
 
 
 const isActive = (history, path) => {
@@ -41,7 +41,7 @@ const Menu = ({ history }) => {
                     <img className="logo12" style={{ width: "160px" }} 
                     alt="CleanLife"
                     src="https://svgshare.com/i/QV9.svg" 
-                    // src="./abilaksan.png"
+                    // src="https://i.imgur.com/tE2EbpW.png"
                     />
 
                 </Link>
